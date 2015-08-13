@@ -3,7 +3,7 @@
   font-family: "Myriad Pro";
 }
 body {
-  background-image: url("background.jpg");
+  background-image: url("../images/background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
