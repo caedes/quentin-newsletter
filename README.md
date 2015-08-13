@@ -18,3 +18,4 @@ Help : (http://www.grafikart.fr/tutoriels/jquery/valider-formulaire-jquery-57)
 - [ ] rendre les pages responsive
 - [ ] centrer les éléments
 - [ ] page fixe (pas de scroll possible)
+- [ ] Add Google Analytics
