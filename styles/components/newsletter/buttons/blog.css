@@ -5,3 +5,9 @@
   padding: 5px 20px;
   margin: 20px 0 0;
 }
+
+@media (min-width: 600px) {
+  .button.blog {
+    position: fixed;
+  }
+}

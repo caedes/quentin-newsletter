@@ -1,6 +1,18 @@
+html, body {
+  height: 100%;
+}
+
 body {
+  background-color: #448271;
   background-image: url("../../images/background.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 20px;
+}
+
+@media (min-width: 600px) {
+  body {
+    text-align: center;
+  }
 }
