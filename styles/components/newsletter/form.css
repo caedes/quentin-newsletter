@@ -2,10 +2,12 @@ form {
   text-align: center;
 }
 
-#mce-EMAIL {
-  width: 30%;
+input[type=email] {
+  width: 100%;
   font-size: 1.5em;
   border: 3px solid #22AA99;
   border-radius: 10px;
-  padding: 0.5%;
+  padding: 0 10px;
+  height: 60px;
+  color: #333;
 }

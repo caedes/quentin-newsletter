@@ -12,17 +12,3 @@
   cursor: pointer;
   background-color: rgba(34, 170, 153, 1);
 }
-
-.button.blog {
-  position: fixed;
-  bottom: 20px;
-  left: 50px;
-  text-decoration: none;
-  padding: 5px 20px;
-}
-
-.button.signup {
-  width: 320px;
-  margin: 20px auto 0;
-  font-size: 2em;
-}
