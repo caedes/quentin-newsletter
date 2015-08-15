@@ -6,3 +6,9 @@ h1 {
   width: 70%;
   margin: 0;
 }
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+}

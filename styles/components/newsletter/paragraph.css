@@ -8,8 +8,9 @@ p {
 
 @media (min-width: 600px) {
   p {
-    width: 450px;
+    width: 700px;
     margin: 10px auto 0;
+    font-size: 1.55em;
   }
 }
 
