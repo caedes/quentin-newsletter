@@ -10,5 +10,7 @@ h1 {
 @media (min-width: 600px) {
   h1 {
     font-size: 3em;
+    display: block;
+    width: auto;
   }
 }
