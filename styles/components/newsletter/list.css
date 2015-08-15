@@ -19,5 +19,6 @@ li {
 @media (min-width: 1100px) {
   ol {
     width: 700px;
+    padding: 0 0 0 140px;
   }
 }
