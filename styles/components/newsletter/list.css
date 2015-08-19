@@ -3,7 +3,7 @@ li {
   font-size: 0.955em;
   font-weight: bold;
   width: 100%;
-  line-height: 200%;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 600px) {
