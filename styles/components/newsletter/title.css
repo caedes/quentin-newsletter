@@ -2,9 +2,18 @@ h1 {
   display: inline-block;
   color: white;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.5em;
   width: 70%;
   margin: 0;
+
+}
+
+@media (min-width: 350px) {
+  h1 {
+    position: relative;
+    left: 15px;
+    font-size: 1.7em;
+  }
 }
 
 @media (min-width: 600px) {
@@ -12,5 +21,6 @@ h1 {
     font-size: 3em;
     display: block;
     width: auto;
+    left: 0;
   }
 }
