@@ -4,11 +4,17 @@
   border-radius: 10px;
   background-color: rgba(34, 170, 153, .6);
   color: white;
-  padding: 20px 20px;
+  padding: 15px 20px;
   font-size: 1em;
 }
 
 .button:hover {
   cursor: pointer;
   background-color: rgba(34, 170, 153, 1);
+}
+
+@media (min-width: 350px) {
+  .button {
+    padding: 20px 20px;
+  }
 }

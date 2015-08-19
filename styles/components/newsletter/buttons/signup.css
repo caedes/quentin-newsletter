@@ -1,5 +1,21 @@
 .button.signup {
-  width: 70%;
-  margin: 40px auto 0;
-  font-size: 2em;
+  width: 100%;
+  margin: 30px auto 0;
+  font-size: 1.7em;
+}
+
+.button.signup span {
+  display: none;
+}
+
+@media (min-width: 350px) {
+  .button.signup {
+    width: 70%;
+    margin: 40px auto 0;
+    font-size: 2em;
+  }
+
+  .button.signup span {
+    display: inline;
+  }
 }
