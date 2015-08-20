@@ -1,12 +1,24 @@
+#empty {
+
+}
+
+#wrong {
+  display: block;
+
+}
+
+#already {
+}
+
 .error {
   display: block;
   border: 0;
   margin: 5px 0 0 0;
   padding: 0 0 0 10px;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: left;
   color: red;
-  text-shadow: 1px 1px #333;
+  text-shadow: 0.5px 0.5px #333;
   font-style: italic;
   display: none;
 }
