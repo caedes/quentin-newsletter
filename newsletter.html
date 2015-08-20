@@ -7,6 +7,8 @@
 	  <link rel="stylesheet" href="styles/main.css" type="style/css" />
 		<link rel="icon" type="image/png" href="http://quentin-bellanger.fr/wp-content/uploads/2015/06/favicon-01.png" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/validation.js"></script>
 	</head>
 
 
@@ -28,7 +30,10 @@
 	  </ol>
 
 		<form action="https://quentin-bellanger.us10.list-manage.com/subscribe/post?u=4370146579df63d12feebe507&amp;id=050846e0da" method="post">
-			<input type="email" name="EMAIL" placeholder="Votre email" id="email" />
+			<input onclick="displayTest()" type="email" name="EMAIL" placeholder="Votre email" id="email" />
+			<p class="error" id="empty error">↳ N'oubliez pas de rentrer votre mail</p>
+			<p class="error" id="wrong error">↳ Votre mail doit être de la forme suivante : exemple@mail.com</p>
+			<p class="error" id="already error">↳ C'est gentil mais vous êtes déjà inscrit !</p>
 			<button class="button signup">S'inscrire <span>→</span></button>
 		</form>
 	</body>
