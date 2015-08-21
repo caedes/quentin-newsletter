@@ -1,3 +1,12 @@
+$(document).ready(function() {
+  $("input").click(function() {
+    $(this).css("border-color","#FF0000");
+
+  });
+
+
+});
+
 /* STRUCTURE
 
 quand je clique sur boutton :
