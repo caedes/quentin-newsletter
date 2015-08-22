@@ -1,0 +1,16 @@
+.unsub {
+  border: none;
+  font-style: italic;
+  font-size: 1em;
+  margin: 0 10px;
+}
+
+.unsub a {
+  color: #22AA99;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.unsub a:hover {
+  text-decoration: underline;
+}
