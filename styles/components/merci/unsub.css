@@ -14,3 +14,10 @@
 .unsub a:hover {
   text-decoration: underline;
 }
+
+@media (min-width: 600px) {
+  .unsub {
+    font-size: 1.4em;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,25 @@
+.button.blog {
+  width: 100%;
+  margin: 20px 0 0 0;
+  font-size: 1.4em;
+  padding: 10px 15px;
+
+}
+
+@media (min-width: 350px) {
+  .button.blog {
+    margin: 40px auto 0;
+    font-size: 2em;
+  }
+
+  @media (min-width: 600px) {
+    .button.blog {
+      width: 50%;
+      font-size: 2em;
+    }
+
+  @media (min-width: 1100px) {
+    .button.blog {
+      width: 50%;
+      font-size: 2em;
+    }
