@@ -6,6 +6,10 @@ li {
   margin-bottom: 5px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 @media (min-width: 350px) {
   li {
     margin-bottom: 15px;
