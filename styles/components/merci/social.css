@@ -8,6 +8,10 @@
   margin: 20px 10px 20px 10px;
 }
 
+.social:hover {
+  opacity: 0.3;
+}
+
 @media (min-width: 350px) {
   .social {
     width: 50px;
