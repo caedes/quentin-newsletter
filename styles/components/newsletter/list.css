@@ -13,7 +13,7 @@ li {
 }
 
 @media (min-width: 600px) {
-  ol {
+  ol, ul {
     width: 600px;
     margin: 10px auto 0;
     text-align: left;
@@ -23,7 +23,7 @@ li {
 }
 
 @media (min-width: 1100px) {
-  ol {
+  ol, ul {
     width: 700px;
     padding: 0 0 0 140px;
   }
