@@ -1,5 +1,10 @@
 $(document).ready(function() {
-  $("input").click(function() {
+  $("button").click(function() {
+    if(input.value === " ") {
+      $("button").css("border-color", "#FF0000");
+      $("button").css("display", "block");
+    } else if (input.value)
+
     $(this).css("border-color","#FF0000");
 
   });
