@@ -6,15 +6,28 @@ form {
 input[type=text] {
   width: 100%;
   font-size: 1.5em;
-  border: 3px solid #22AA99;
-  border-radius: 10px;
+  border: 2px solid #fff;
+  border-radius: 4px;
   padding: 0 10px;
   height: 50px;
-  color: #333;
+  color: #fff;
+  background-color: transparent;
 }
 
 input[type=text].error {
   border-color: red;
+}
+
+input #email {
+  color: #fff !important;
+}
+
+-webkit-input-placeholder,
+-o-placeholder,
+-moz-placeholder,
+-moz-placeholder,
+-ms-input-placeholder {
+    color:    #fff  ;
 }
 
 @media (min-width: 600px) {
