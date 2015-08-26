@@ -1,38 +1,36 @@
 $(document).ready(function() {
-  $("button").click(function() {
-    if(input.value === " ") {
-      $("button").css("border-color", "#FF0000");
-      $("button").css("display", "block");
-    } else if (input.value)
+  var $email = $('input[name=EMAIL]');
 
-    $(this).css("border-color","#FF0000");
-
+  $email.focus(function(){
+    $(this).removeClass('error');
   });
 
+  $('form').on('submit', function(){
+    var $empty = $('#empty');
+    var $wrong = $('#wrong');
 
+    var validated = true;
+
+    // RESET ERRORS
+    $empty.hide();
+    $wrong.hide();
+
+    var email = $email.val();
+
+    switch (true) {
+      case (email === ''):
+        validated = false;
+        $email.addClass('error');
+        $('#empty').show();
+        break;
+
+      case (!/(.*)@(.*)\.(.*)/.test(email)):
+        validated = false;
+        $email.addClass('error');
+        $('#wrong').show();
+        break;
+    }
+
+    return validated;
+  });
 });
-
-/* STRUCTURE
-
-quand je clique sur boutton :
-
-  if(email === " ") {
-    ("mon-id").style.display = "block";
-    ("mon-id").style.border = "red";
-    action du bouton : false;
-
-  } else if (email !=== /[A-Z]*[1-9]@) {
-
-    ("mon-id").style.display = "block";
-    ("mon-id").style.border = "red";
-    action du bouton : false;
-
-  } else if (email : deja abo) {
-
-    ("mon-id").style.display = "block";
-    ("mon-id").style.border = "red";
-    action du bouton : false;
-
-  } else {
-
-}

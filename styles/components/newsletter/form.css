@@ -3,7 +3,7 @@ form {
   margin-bottom: 40px;
 }
 
-input[type=email] {
+input[type=text] {
   width: 100%;
   font-size: 1.5em;
   border: 3px solid #22AA99;
@@ -11,6 +11,10 @@ input[type=email] {
   padding: 0 10px;
   height: 50px;
   color: #333;
+}
+
+input[type=text].error {
+  border-color: red;
 }
 
 @media (min-width: 600px) {
